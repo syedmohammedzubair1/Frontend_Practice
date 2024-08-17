@@ -1,0 +1,25 @@
+table{
+    margin: auto;
+    font-weight: 200;
+    text-transform: capitalize;
+    width: 80%;
+    border:3px solid black;
+    border-radius: 2px;
+    text-align: center;
+}
+thead{
+    background-color: darkblue;
+    color: white;
+}
+caption{
+    background-color: darkblue;
+    border: 2px solid black;
+    border-bottom:0px ;
+    color:white;
+    font-size: 30px;
+    font-weight:bolder;
+}
+tbody{
+    background-color: lightblue;
+    color:black;
+}

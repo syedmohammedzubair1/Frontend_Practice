@@ -1,0 +1,24 @@
+.poem{
+ text-align: center;
+ color: brown;
+}
+.heading{
+    color: red;
+    text-align: center;
+}
+.btn{
+    color: blueviolet;
+    background-color: white;
+    border-radius: 5px;
+}
+body{
+    background-color: wheat;
+    font-family:Georgia;
+}
+textarea{
+    color:black;
+}
+
+span{
+    text-decoration: underline;
+}

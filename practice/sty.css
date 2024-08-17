@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    margin-top:0;
+    font-family:'Poppins', sans-serif;
+}
+button{
+    margin-left:25px;
+    border-radius: 3px;
+    padding: 10px;
+    background-color:rgb(6, 149, 237);
+    color: white;
+}
+button:hover{
+    background-color:grey;
+    border:none;
+}
+.container{
+    display:inline-flex;
+    margin:none;
+    padding:none;
+    color: white;
+    flex:row;
+    background-color:rgba(13, 73, 105, 0.954);
+    width: 100%;
+}
+.image{
+    float:inline-start;
+    margin-top: 30px;
+    padding:none;
+    width:30%;
+}
+.Navbar{
+    margin:5px;
+    padding:5px;
+    float:inline-end;   
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.Navbar li{
+    margin: none;
+    padding:150px;
+    padding: 7px; 
+    display:inline-block;
+}
+.Navbar li:hover{
+    color:rgb(6, 149, 237);
+}
+.headache{
+    background-color: aqua;
+    position:top;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left:0px;
+    height: min-content;
+}
+h2{
+    text-align:center;
+}
+.Navbar1{
+
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    float:inline;   
+}
+.Navbar1 li{
+    padding:150px;
+    padding: 50px; 
+    font-size: larger;
+    display:inline;
+}
+footer{
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    background-color: black;
+    color:white;
+}
+section{
+    text-align: center;
+    padding: 70px;
+}
+.new{
+    padding: 70px;
+    background-color: aquamarine;
+}
+.immagge{
+    height: 50px;
+    width: 50px;
+    background-image: url("Banner.jpg");
+}
