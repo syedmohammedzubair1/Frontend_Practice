@@ -1,0 +1,27 @@
+@media(max-width:768px){
+    .top{
+        display: none;
+    }
+    .logo{
+        width: 100%;
+        margin:auto;
+        height: 40vh;
+    }
+    nav ul li{
+        display: none;
+    }
+    .bg{
+        width: 100%;
+        margin: 150px 0px 0px 0px;
+    }
+    .bgvideo video{
+        width: 250%;
+    }
+    .Courses{
+        width: 80%;
+        margin:10px;
+        }
+    .newbatches{
+        display: none;
+    }
+}
