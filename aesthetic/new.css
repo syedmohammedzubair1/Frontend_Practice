@@ -56,15 +56,15 @@ nav li{
 nav button{
     margin: 10px;
     margin-right: 0px;
-    background-color: black;
+    background-image:linear-gradient(to right, red,blue);
     color:white;
     height: 30px;
 }
 nav button:hover{
     margin: 10px;
     margin-right: 0px;
-    background-color:gold;
-    color:black;
+    background-image:linear-gradient(to right, blue,red);
+    color:white;
     height: 30px;
 }
 .section1{
@@ -105,17 +105,18 @@ a:hover{
     width: 100%;
     height:600px;
     display:flex;
+    flex-direction: row;
 }
 .ing{
     width: 50%;
-    padding: 50px;
+    padding: 45px;
 }
 .txt{
     background-image: url("download.png");
     background-repeat: no-repeat;
     background-position-x: right;
    width: 50%;
-   padding: 60px;
+   padding: 45px;
    font-size: larger;
    flex-wrap: wrap;
 }
@@ -129,6 +130,7 @@ a:hover{
 .section3{
     text-align: center;
     width: 100%; 
+    
 }
 .content{
     width: 30%;
@@ -145,12 +147,12 @@ a:hover{
     color: white;
 }
 .content button{
-    background-color: black;
+    background-image:linear-gradient(to right, red,blue);
     color:white;
 }
 .content button:hover{
-    background-color:gold;
-    color:black;
+    background-image:linear-gradient(to right, blue,red);
+    color:white;
 }
 .group{
     display: flex;
@@ -162,7 +164,8 @@ a:hover{
 .section5{
     display: flex;
     border: 3px solid black;
-    background-color: gold;
+    background-image: linear-gradient(to right,blue,red);
+    color: white;
    margin: 50px;
    padding: 50px;
 }

@@ -1,0 +1,44 @@
+@media(max-width:768px){
+    .external{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .section1{
+        width: 100%;
+        height: fit-content;
+    }
+    .section2{
+        background-image: none;
+        display: block;
+    }
+   .ing{
+    width: 70%;
+   }
+   .ing img{
+    width: 200px;
+    height:200px;
+   }
+   .txt{
+    width: 70%;
+    background-image: none;
+    padding: 10px;
+    font-size: x-small;
+   }
+   .section3{
+    font-size: xx-small;
+   }
+   .content{
+    height:150px;
+   }
+   .section4{
+    display: block;
+   }
+   .section5{
+    display: block;
+   }
+   .terms{
+    display: block;
+   }
+}
