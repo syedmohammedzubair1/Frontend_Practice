@@ -1,0 +1,54 @@
+@media(max-width:768px){
+    nav{
+        width: 100%;
+    }
+    .blabla{
+        padding-left: 15px;
+        padding-top: 40px;
+    }
+    .blabla select{
+        width: 70px;
+    }
+    .blabla select option{
+        background-color: transparent;
+        color: white;
+    }
+    .section1 button{
+        font-size: x-small;
+    }
+    .section1 input{
+        width: 250px;
+        color: white;
+        background-color: transparent;
+        border:1px solid white;
+        margin-bottom: 3px;
+    }
+    .section1 input::placeholder{
+        color: white;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .section2 img{
+        width: 100%;
+    }
+    .para{
+        border-bottom: 0px none ;
+    }
+    .para p{
+        font-size: x-small;
+    }
+    .new,.new1{
+        margin-top: 5px;
+    }
+    .section3 p{
+        font-size: small;
+    }
+    .section3 summary{
+        font-size: small;
+    }
+    table{
+        display: none;
+    }
+}

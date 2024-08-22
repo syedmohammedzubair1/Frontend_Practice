@@ -34,7 +34,6 @@ nav  img{
         height: 20vh; 
 }
 .blabla select,button{
-    width: 20%;
     height: 30px;
 }
 .blabla select{
@@ -43,7 +42,7 @@ nav  img{
     color: white;
 }
 button{
-    background-color:red;
+    background-color:rgb(193, 17,25);
     border-radius: 7px;
     border-style: none;
     color:white;
@@ -64,9 +63,14 @@ button:hover{
 .section1 input{
 width:30%;
 height: 10vh;
+background-color: transparent;
+color: white;
 }
+.section1 input::placeholder{
+    color: white;
+}
+
 .section1 button{
-    width: 200px;
     height: 10vh;
 }
 .section1 button:hover{
@@ -87,6 +91,7 @@ height: 10vh;
     color:white;
     text-align: center;
     height:200px;
+    border-bottom: 5px solid rgba(128, 128, 128, 0.315);
 }
 .para h1{
     font-size: 30px;
