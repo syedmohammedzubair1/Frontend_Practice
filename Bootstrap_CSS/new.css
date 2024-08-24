@@ -1,0 +1,45 @@
+
+.about div{
+    text-align: justify;
+}
+.about{
+    width: 100%;
+}
+.image img{
+    width: 100%;
+    height: max-content;
+}
+.courses{
+    width: 100%;
+    text-align: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.courses .card img{
+    width: 100%;
+    transition-duration: 1s;
+}
+.card{
+    box-shadow: 1px 1px 10px 5px rgb(196, 196, 196); 
+    margin-bottom: 30px;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+.card:hover{
+    box-shadow: 1px 1px 10px 5px rgb(153, 153, 153); 
+    margin-bottom: 30px;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.section4{
+    width: 100768}
+.newsection{
+    text-align: center;
+}
+
+
+
