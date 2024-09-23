@@ -5,13 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-        
+        <style>
+            nav{
+                background-color: #333;
+                display: flex;
+                flex-direction: column;
+                padding: 5px;
+                margin:10px;
+            }
+            nav button{
+                background-color: yellowgreen;
+                color: white;
+                width:auto;
+                height: 40px;
+                margin: 20px;
+            }
+            button{
+                background-color: blue;
+                color: white;
+                width:auto;
+                height: 40px;
+                margin:10px;
+            }
+        </style>
 </head>
 <body>
-    <i class="fa-solid fa-mobile"></i>
-    <i class="fa-brands fa-telegram"></i>
-    <button type="submit">
-        <span class="fa-solid fa-envelope"></span> Email Us!
-      </button>
+    <nav>
+        <button>hello</button>
+        <button>Hello</button>
+        <button>help</button>
+        <button>Contact</button>
+        <button>About</button>
+    </nav>
+    <input type="text" name="" id="inpt">
+    <button id="sbmt"type="submit">submit</button>
+    <button id="menu">click </button>
+    <p id="hi"></p>
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script>
+    $("#menu").click(()=>{
+        $("nav").slideToggle(1000);
+    })
+    $("#sbmt").click(()=>{
+        const username=$("#inpt").val();
+
+        $("#hi").text("Hello "+username);
+    })
+   </script>
 </body>
 </html>
